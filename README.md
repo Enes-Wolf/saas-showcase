@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Modern SaaS Landing Page & Stripe Subscription Architecture
 
-## Getting Started
+A production-ready, high-performance SaaS landing page and pricing architecture built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Stripe API Integration**.
 
-First, run the development server:
+![Next.js]([https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js))
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![TypeScript]([https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white))
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Tailwind CSS]([https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white))
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Stripe]([https://img.shields.io/badge/Stripe_API-635BFF?style=for-the-badge&logo=stripe&logoColor=white](https://img.shields.io/badge/Stripe_API-635BFF?style=for-the-badge&logo=stripe&logoColor=white))
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Vercel]([https://img.shields.io/badge/Vercel_Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white](https://img.shields.io/badge/Vercel_Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white))
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Live Demo & Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Live URL:** [[https://saas-showcase-orcin.vercel.app](https://saas-showcase-orcin.vercel.app)](https://saas-showcase-orcin.vercel.app](https://saas-showcase-orcin.vercel.app))
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Deployment Platform:** Vercel (CI/CD Automated)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Key Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ⚡ **Next.js 16 App Router:** Server-side performance and optimized client components.
+
+- 🎨 **Modern Dark UI:** Fully responsive, premium dark-mode interface powered by Tailwind CSS.
+
+- 💳 **Stripe Checkout API:** Secure backend endpoint `/api/checkout`) ready for recurring monthly subscription flows.
+
+- 🔒 **Type-Safe:** End-to-end type safety using TypeScript.
+
+- 📱 **Fully Responsive:** Pixel-perfect experience across mobile, tablet, and desktop devices.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+- **Framework:** Next.js 16 (React 19)
+
+- **Language:** TypeScript
+
+- **Styling:** Tailwind CSS
+
+- **Payment Processing:** Stripe Node SDK `stripe`, `@stripe/stripe-js`)
+
+- **Hosting & CI/CD:** Vercel
+
+---
+
+## 🚀 Getting Started Locally
+
+1. **Clone the repository:**
+
+   ```bash
+
+   git clone [[https://github.com/Enes-Wolf/saas-showcase.git](https://github.com/Enes-Wolf/saas-showcase.git)](https://github.com/Enes-Wolf/saas-showcase.git](https://github.com/Enes-Wolf/saas-showcase.git))
+
+   cd saas-showcase
